@@ -1,0 +1,88 @@
+body {
+    direction: rtl;
+}
+
+.avatar {
+    margin-left: 10px !important;
+}
+
+.me-2 {
+    margin-left: 0.5rem !important;
+}
+
+.nav-item .nav-link b.ms-auto{
+    margin-right: auto!important;
+    margin-left: 0 !important;
+}
+
+dl, ol, ul {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-right: -20px;
+}
+
+.form-check .form-check-input {
+    float: right ;
+    margin-left: 1.1rem ;
+}
+
+th.text-start, td.text-start {
+    text-align: right !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #6c757d;
+    content: var(--bs-breadcrumb-divider,"/");
+    float: right;
+    padding-left: 0.5rem;
+}
+
+[data-controller="chart"]{
+    direction: ltr;
+}
+
+.input-icon .form-control:not(:last-child) {
+    padding-left: 2.5rem;
+}
+.input-icon .bootstrap-tagsinput:not(:last-child), 
+.input-icon .chosen-choices:not(:last-child), 
+.input-icon .chosen-single:not(:last-child), 
+.input-icon .form-control:not(:last-child), 
+.input-icon .select2-container--bootstrap .select2-search--dropdown .select2-search__field:not(:last-child), 
+.select2-container--bootstrap .select2-search--dropdown .input-icon .select2-search__field:not(:last-child) {
+    padding-left: 2.5rem !important;
+    padding-right: 12px;
+}
+
+.input-icon-addon:last-child {
+    left: 0;
+    right: auto;
+}
+
+.alert button.ms-auto {
+    margin-right: auto!important;
+    margin-left: 0 !important;
+}
+
+.toast-body button.ms-auto {
+    margin-right: auto!important;
+    margin-left: 0 !important;
+}
+
+header.d-sm-flex a.me-auto{
+    margin-right: 0!important;
+    margin-left: auto !important;
+}
+
+header.d-sm-flex a.header-toggler svg {
+    margin-left: 10px;
+}
+
+.card-body div.row div.ms-auto {
+    margin-right: auto!important;
+    margin-left: 0 !important;
+}
+
+.select2-dropdown {
+    direction: rtl;
+}
